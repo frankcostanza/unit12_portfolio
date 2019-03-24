@@ -1,0 +1,153 @@
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+/*Helper*/
+.no_margin {
+    margin-left: 0;
+    margin-right: 0;
+    background:linear-gradient(90deg, rgba(24, 32, 39, 0.2) 30%, rgba(51, 45, 60, 0.3)  70%);
+}
+
+.headline_properties {
+    background-color: rgba(39, 67, 63, 0.4);
+    border-radius: 10%;
+}
+
+/* Header */
+.overwrite_image {
+    display: none;
+}
+
+.text_overwrite {
+    color: #000;
+    font-size: 1.275rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.btn_position_english {
+    display: inline;
+}
+
+.btn_position_german {
+    display: inline;
+}
+
+#about_me {
+    float: right;
+    margin-top:0.5rem;
+    font-size: 1rem;
+}
+
+#about_me:hover {
+    cursor: pointer;
+}
+
+.german {
+    display:none;
+}
+
+.english {
+    display:block;
+}
+
+/*Section*/
+
+
+.image_properties {
+    width: 100%;
+}
+
+
+#image {
+    transition: 0.5s;
+    display: block;
+}
+
+.image:hover {
+    box-shadow: 10px 10px 15px silver;
+}
+
+.btn-info {
+    margin: 3rem 6rem 0;
+    display: inline;
+}
+
+
+/*footer*/
+.footer_border  {
+    border-top: 2px solid rgba(24, 32, 39, 0.4);
+}
+
+.social-media {
+    width: 10%;
+    padding-right: 0.8rem;
+
+}
+
+@media (min-width: 460px) {
+    .btn-info {
+        margin: 3rem 8rem 0;
+        display: block;
+    }
+
+}
+
+
+@media (min-width: 600px) {
+
+    .text_overwrite{
+        text-align: left;
+    }
+    .overwrite_image {
+        position: absolute;
+        top: 62%;
+        left: 20%;
+        font-size:1.4rem ;
+        color: #fff;
+    }
+
+    #image {
+        display:block;
+    }
+
+    .btn_position_english {
+        position: absolute;
+        left: 5%;
+        top: 10%;
+    }
+
+    .btn_position_german {
+        position: absolute;
+        left: 5%;
+        top: 22%;
+    }
+
+    #about_me {
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) {
+    .text_overwrite {
+        color: #ffffff;
+        font-size: 2.5rem;
+    }
+
+    .btn_position_english {
+        left: 75%;
+        top: 10%;
+    }
+
+    .btn_position_german {
+        left: 82%;
+        top: 10%;
+    }
+}
+
+
