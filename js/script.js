@@ -26,8 +26,7 @@ $(document).ready(function() {
     var my_text = document.getElementById("my_text");
 
     about_me.addEventListener("click", function () {
-        console.log("click worked")
-        if(image.style.display != 'none') {
+        if(image.style.display !== 'none') {
             image.style.display = 'none';
             my_text.style.display = 'block';
         } else if (image.style.display === 'none') {
