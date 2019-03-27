@@ -69,6 +69,31 @@ body {
     display: inline-block;
 }
 
+.css,
+.html,
+.javascript,
+.jquery{
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding:0.2rem 0.4rem;
+    color:#fff;
+}
+
+.css {
+    background-color: #dc3545;
+}
+
+.html {
+    background-color: #28a745;
+}
+
+.javascript {
+    background-color: #007bff;
+}
+ .jquery {
+     background-color: #6c757d;
+ }
+
 
 /*footer*/
 .footer_border  {
@@ -83,17 +108,17 @@ body {
 
 @media (min-width: 460px) {
     .btn-info {
-        margin: 3rem 15rem 0;
-        display: block;
+        margin: 3rem 11rem 0;
+        display: inline-block;
     }
 
 }
 
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
 
     .text_overwrite{
-        text-align: left;
+        text-align: center;
         display: block;
     }
     .overwrite_image {
@@ -102,6 +127,14 @@ body {
         left: 20%;
         font-size:1.4rem ;
         color: #fff;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    .btn-info {
+        display: inline-block;
     }
 
     #image {
@@ -139,6 +172,10 @@ body {
     .btn_position_german {
         left: 82%;
         top: 10%;
+    }
+
+    .center {
+        text-align:left;
     }
 }
 
